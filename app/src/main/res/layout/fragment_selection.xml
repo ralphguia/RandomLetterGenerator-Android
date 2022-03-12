@@ -3,7 +3,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".SelectionFragment">
+    tools:context="com.example.android.navigation.SelectionFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -64,145 +64,193 @@
                 android:id="@+id/toggleButton_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="A"
+                android:textOn="A" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="B"
+                android:textOn="B" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="C"
+                android:textOn="C" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="D"
+                android:textOn="D" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="E"
+                android:textOn="E" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_f"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="F"
+                android:textOn="F" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_g"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="G"
+                android:textOn="G" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_h"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="H"
+                android:textOn="H" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="I"
+                android:textOn="I" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_j"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="J"
+                android:textOn="J" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_k"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="K"
+                android:textOn="K" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_l"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="L"
+                android:textOn="L" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_m"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="M"
+                android:textOn="M" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_n"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="N"
+                android:textOn="N" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_o"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="O"
+                android:textOn="O" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_p"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="P"
+                android:textOn="P" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_q"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="Q"
+                android:textOn="Q" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_r"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="R"
+                android:textOn="R" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_s"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="S"
+                android:textOn="S" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_t"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="T"
+                android:textOn="T" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_u"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="U"
+                android:textOn="U" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_v"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="V"
+                android:textOn="V" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_w"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="W"
+                android:textOn="W" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_x"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="X"
+                android:textOn="X" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_empty"
@@ -215,18 +263,22 @@
                 android:id="@+id/toggleButton_y"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="Y"
+                android:textOn="Y" />
 
             <ToggleButton
                 android:id="@+id/toggleButton_z"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+                android:text="ToggleButton"
+                android:textOff="Z"
+                android:textOn="Z" />
 
         </GridLayout>
 
         <Button
-            android:id="@+id/submitButton"
+            android:id="@+id/nextButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Next"

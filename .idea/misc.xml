@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Christian/AndroidStudioProjects/Kotlin/RandomLetterGenerator-Android/app/src/main/res/layout/activity_main.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Christian/AndroidStudioProjects/Kotlin/RandomLetterGenerator-Android/app/src/main/res/layout/fragment_display_letters.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Christian/AndroidStudioProjects/Kotlin/RandomLetterGenerator-Android/app/src/main/res/layout/fragment_selection.xml" value="0.5040265277119849" />
       </map>
     </option>
