@@ -11,7 +11,7 @@
 
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textViewTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="History of all letters"
@@ -22,25 +22,25 @@
             app:layout_constraintVertical_bias="0.2" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textViewLetter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Enter Letter here"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
             app:layout_constraintVertical_bias="0.15" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonLetter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Next Letter"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+            app:layout_constraintTop_toBottomOf="@+id/textViewLetter" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

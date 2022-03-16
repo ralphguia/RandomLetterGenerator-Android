@@ -11,12 +11,20 @@ import com.example.randomlettergenerator.databinding.FragmentDisplayLettersBindi
 
 class DisplayLettersFragment : Fragment() {
 
+    private val temp_letterlist: ArrayList<Char> = SelectionFragment().temp_letterlist //TODO muss das noch mim intent hinbekommen, da das einfach leer ist
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         val binding: FragmentDisplayLettersBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_display_letters, container, false)
+
+        binding.buttonLetter.setOnClickListener{
+            var randomLetter:Char = temp_letterlist.random()
+            binding.textViewLetter.setText("$randomLetter")
+            temp_letterlist.remove(randomLetter)
+        }
 
         return binding.root
     }
