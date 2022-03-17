@@ -12,9 +12,9 @@ import androidx.navigation.Navigation
 import com.example.randomlettergenerator.databinding.FragmentSelectionBinding
 
 
-class SelectionFragment : Fragment() {
+class SelectionFragment : Fragment() { //TODO viewModel
 
-    val temp_letterlist: ArrayList<Char> = arrayListOf()
+    private val temp_letterlist: ArrayList<Char> = arrayListOf()
 
     fun btnActionLetter(letter: Char, checked: Boolean){
         if(checked){

@@ -11,8 +11,7 @@ import com.example.randomlettergenerator.databinding.FragmentDisplayLettersBindi
 
 class DisplayLettersFragment : Fragment() {
 
-    private val temp_letterlist: ArrayList<Char> = SelectionFragment().temp_letterlist //TODO muss das noch mim intent hinbekommen, da das einfach leer ist
-
+    lateinit var temp_letterlist: ArrayList<Char>
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
