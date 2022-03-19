@@ -40,7 +40,7 @@ class SelectionFragment : Fragment() { //TODO viewModel
                 Log.i("test","Element in List:$element")
             }
         }
-        binding.toggleButtonB.setOnCheckedChangeListener{ _, isChecked -> btnActionLetter('B', isChecked) }
+        binding.toggleButtonB.setOnCheckedChangeListener{ _, isChecked -> btnActionLetter('B', isChecked)}
         binding.toggleButtonC.setOnCheckedChangeListener{ _, isChecked -> btnActionLetter('C', isChecked)}
         binding.toggleButtonD.setOnCheckedChangeListener{ _, isChecked -> btnActionLetter('D', isChecked)}
         binding.toggleButtonE.setOnCheckedChangeListener{ _, isChecked -> btnActionLetter('E', isChecked)}
@@ -66,6 +66,63 @@ class SelectionFragment : Fragment() { //TODO viewModel
         binding.toggleButtonY.setOnCheckedChangeListener{ _, isChecked -> btnActionLetter('Y', isChecked)}
         binding.toggleButtonZ.setOnCheckedChangeListener{ _, isChecked -> btnActionLetter('Z', isChecked)}
 
+        binding.selectAllButton.setOnClickListener {
+            binding.toggleButtonA.isChecked = true
+            binding.toggleButtonB.isChecked = true
+            binding.toggleButtonC.isChecked = true
+            binding.toggleButtonD.isChecked = true
+            binding.toggleButtonE.isChecked = true
+            binding.toggleButtonF.isChecked = true
+            binding.toggleButtonG.isChecked = true
+            binding.toggleButtonH.isChecked = true
+            binding.toggleButtonI.isChecked = true
+            binding.toggleButtonJ.isChecked = true
+            binding.toggleButtonK.isChecked = true
+            binding.toggleButtonL.isChecked = true
+            binding.toggleButtonM.isChecked = true
+            binding.toggleButtonN.isChecked = true
+            binding.toggleButtonO.isChecked = true
+            binding.toggleButtonP.isChecked = true
+            binding.toggleButtonQ.isChecked = true
+            binding.toggleButtonR.isChecked = true
+            binding.toggleButtonS.isChecked = true
+            binding.toggleButtonT.isChecked = true
+            binding.toggleButtonU.isChecked = true
+            binding.toggleButtonV.isChecked = true
+            binding.toggleButtonW.isChecked = true
+            binding.toggleButtonX.isChecked = true
+            binding.toggleButtonY.isChecked = true
+            binding.toggleButtonZ.isChecked = true
+        }
+
+        binding.clearButton.setOnClickListener {
+            binding.toggleButtonA.isChecked = false
+            binding.toggleButtonB.isChecked = false
+            binding.toggleButtonC.isChecked = false
+            binding.toggleButtonD.isChecked = false
+            binding.toggleButtonE.isChecked = false
+            binding.toggleButtonF.isChecked = false
+            binding.toggleButtonG.isChecked = false
+            binding.toggleButtonH.isChecked = false
+            binding.toggleButtonI.isChecked = false
+            binding.toggleButtonJ.isChecked = false
+            binding.toggleButtonK.isChecked = false
+            binding.toggleButtonL.isChecked = false
+            binding.toggleButtonM.isChecked = false
+            binding.toggleButtonN.isChecked = false
+            binding.toggleButtonO.isChecked = false
+            binding.toggleButtonP.isChecked = false
+            binding.toggleButtonQ.isChecked = false
+            binding.toggleButtonR.isChecked = false
+            binding.toggleButtonS.isChecked = false
+            binding.toggleButtonT.isChecked = false
+            binding.toggleButtonU.isChecked = false
+            binding.toggleButtonV.isChecked = false
+            binding.toggleButtonW.isChecked = false
+            binding.toggleButtonX.isChecked = false
+            binding.toggleButtonY.isChecked = false
+            binding.toggleButtonZ.isChecked = false
+        }
 
         return binding.root
     }
