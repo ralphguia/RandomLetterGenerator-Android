@@ -8,11 +8,16 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.NavDirections
 import androidx.navigation.Navigation
 import com.example.randomlettergenerator.databinding.FragmentSelectionBinding
 
 
 class SelectionFragment : Fragment() { //TODO viewModel
+
+    private lateinit var displayLetterFragment: DisplayLettersFragment
+    private lateinit var args: Bundle
 
     private val temp_letterlist: ArrayList<Char> = arrayListOf()
 
@@ -123,6 +128,8 @@ class SelectionFragment : Fragment() { //TODO viewModel
             binding.toggleButtonY.isChecked = false
             binding.toggleButtonZ.isChecked = false
         }
+
+        //args.putCharSequenceArrayList("LetterKey", temp_letterlist) TODO
 
         return binding.root
     }

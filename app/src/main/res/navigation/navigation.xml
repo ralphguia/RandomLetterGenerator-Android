@@ -12,6 +12,7 @@
         <action
             android:id="@+id/action_selectionFragment_to_displayLettersFragment"
             app:destination="@id/displayLettersFragment" />
+        <argument android:name="letterList" />
     </fragment>
     <fragment
         android:id="@+id/displayLettersFragment"
